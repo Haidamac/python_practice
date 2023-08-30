@@ -7,3 +7,8 @@ def convert_seconds(seconds):
 result = convert_seconds(1000000)
 type(result)
 print(result)
+
+hours, minutes, seconds = convert_seconds(1000000)
+print(hours)
+print(minutes)
+print(seconds)
