@@ -7,7 +7,6 @@ def groups_per_user(group_dictionary):
                 user_groups[user].append(group)
              else:
                 user_groups[user] = [group]
-
 	return(user_groups)
 
 print(groups_per_user({"local": ["admin", "userA"],
